@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE87B0EA2195BDA5008A731D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87B0E92195BDA5008A731D /* AppDelegate.swift */; };
-		DE87B0EC2195BDA5008A731D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87B0EB2195BDA5008A731D /* ViewController.swift */; };
-		DE87B0EF2195BDA5008A731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87B0ED2195BDA5008A731D /* Main.storyboard */; };
+		DE87B0EC2195BDA5008A731D /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87B0EB2195BDA5008A731D /* FriendsController.swift */; };
 		DE87B0F22195BDA5008A731D /* FacebookMessanger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE87B0F02195BDA5008A731D /* FacebookMessanger.xcdatamodeld */; };
 		DE87B0F42195BDA6008A731D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE87B0F32195BDA6008A731D /* Assets.xcassets */; };
 		DE87B0F72195BDA6008A731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87B0F52195BDA6008A731D /* LaunchScreen.storyboard */; };
@@ -37,8 +36,7 @@
 /* Begin PBXFileReference section */
 		DE87B0E62195BDA5008A731D /* FacebookMessanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookMessanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE87B0E92195BDA5008A731D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE87B0EB2195BDA5008A731D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE87B0EE2195BDA5008A731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE87B0EB2195BDA5008A731D /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		DE87B0F12195BDA5008A731D /* FacebookMessanger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookMessanger.xcdatamodel; sourceTree = "<group>"; };
 		DE87B0F32195BDA6008A731D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE87B0F62195BDA6008A731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DE87B0E92195BDA5008A731D /* AppDelegate.swift */,
-				DE87B0EB2195BDA5008A731D /* ViewController.swift */,
-				DE87B0ED2195BDA5008A731D /* Main.storyboard */,
+				DE87B0EB2195BDA5008A731D /* FriendsController.swift */,
 				DE87B0F32195BDA6008A731D /* Assets.xcassets */,
 				DE87B0F52195BDA6008A731D /* LaunchScreen.storyboard */,
 				DE87B0F82195BDA6008A731D /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				DE87B0F72195BDA6008A731D /* LaunchScreen.storyboard in Resources */,
 				DE87B0F42195BDA6008A731D /* Assets.xcassets in Resources */,
-				DE87B0EF2195BDA5008A731D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE87B0EC2195BDA5008A731D /* ViewController.swift in Sources */,
+				DE87B0EC2195BDA5008A731D /* FriendsController.swift in Sources */,
 				DE87B0EA2195BDA5008A731D /* AppDelegate.swift in Sources */,
 				DE87B0F22195BDA5008A731D /* FacebookMessanger.xcdatamodeld in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE87B0ED2195BDA5008A731D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE87B0EE2195BDA5008A731D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE87B0F52195BDA6008A731D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
